@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    background-image: linear-gradient(to right, #595ce0, #384dc7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.password{
+    transition: transform 0.5s;
+}
+
+.password:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.hide{
+    display: none !important;
+}
